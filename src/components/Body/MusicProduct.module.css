@@ -1,5 +1,5 @@
 .container{
-    max-width:900px;
+    max-width:800px;
     margin:0 auto;
     padding:20px 30px;
 }
@@ -9,6 +9,12 @@ section h2{
     text-align:center;
     padding:20px;
     font-size:30px;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 #music-content div h3{

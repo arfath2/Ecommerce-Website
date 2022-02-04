@@ -37,10 +37,11 @@ const MusicProduct = () =>{
     return <Fragment>
         
         <section className={classes.container}>
-            <h2>MUSIC</h2>
+          <span><h2>MUSIC</h2></span>  
+          <div className={classes.flex}>
             {productsArr.map((items) => {
                 return (
-                <div key={items.album} id ="music-content">
+                <div  key={items.album} id ="music-content">
                     <h3>{items.album}</h3>
                     <div className={classes["image-container"]}>
                         <img className={classes["prod-images"]} src={items.imageUrl} alt="" />
@@ -51,7 +52,7 @@ const MusicProduct = () =>{
                     </div>
                 </div>)
                 })} 
-                
+            </div>    
         </section>
     </Fragment>
 }

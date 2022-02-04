@@ -9,13 +9,13 @@ const Footer =() =>{
     <div className={classes["footer-icons"]}>
         <ul>
             <li><a>
-                <img src="./img/6260efc8fc9a9002669d2f4ad9956cc0.jpg" alt=""/>
+                <img src="https://www.sendwithus.com/assets/img/emailmonks/images/yt.png" alt=""/>
             </a></li>
             <li><a>
-                <img src="./img/Spotify Logo.png" alt=""/>
+                <img src="https://www.sendwithus.com/assets/img/emailmonks/images/insta.png/" alt=""/>
             </a></li>
             <li><a>
-                <img src="./img/Facebook Logo.png" alt=""/>
+                <img src="https://www.sendwithus.com/assets/img/emailmonks/images/fb.png" alt=""/>
             </a></li>
         </ul>
     </div>
